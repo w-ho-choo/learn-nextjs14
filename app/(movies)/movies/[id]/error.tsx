@@ -1,5 +1,5 @@
-"use client";
+'use client'
 
-export default function ErrorOMG() {
-  return <h1>lol something broke....</h1>;
+export default function ErrorPage() {
+  return <h1>뭔가 고장나부렀으</h1>
 }
