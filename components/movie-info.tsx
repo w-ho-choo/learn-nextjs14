@@ -1,10 +1,10 @@
-import styles from '../styles/movie-info.module.css'
+import styles from '@styles/movie-info.module.css'
 import { URL } from '../app/(home)/page'
 
 const API_URL = URL
 
-const getMovie = async (id: string) => {
-  console.log(`Fetching Movies: ${Date.now()}`)
+export const getMovie = async (id: string) => {
+  // console.log(`Fetching Movies: ${Date.now()}`)
   const response = await fetch(`${API_URL}/${id}`)
   return response.json()
 }
