@@ -1,5 +1,5 @@
 import styles from '@styles/movie-videos.module.css'
-import { URL } from '../app/(home)/page'
+import { URL } from '../app/constants'
 
 const API_URL = URL
 const getVideos = async (id: string) => {

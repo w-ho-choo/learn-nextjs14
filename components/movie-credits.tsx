@@ -1,4 +1,4 @@
-import { URL } from '../app/(home)/page'
+import { URL } from '../app/constants'
 import styles from '@styles/movie-credits.module.css'
 
 const API_URL = URL
